@@ -33,7 +33,7 @@ targets:
     workspace:
       host: https://dbc-5fc57a13-8c26.cloud.databricks.com//
       # We explicitly deploy to /Workspace/Users/stuart.libby@databricks.com to make sure we only have a single copy.
-      root_path: /Workspace/Users/stuart.libby@databricks.com/.bundle/${bundle.name}/${bundle.target}
+      root_path: /Workspace/Shared/project/.bundle/${bundle.name}/${bundle.target}
     variables:
       catalog: main
       schema: prod
