@@ -1,0 +1,8 @@
+# Top-level permissions for dabs_project.
+# Applied to ALL resources across ALL targets (dev + prod).
+# Docs: https://docs.databricks.com/dev-tools/bundles/permissions
+permissions:
+  - user_name: stuart.libby@databricks.com
+    level: CAN_MANAGE
+  - service_principal_name: 73529182-20d0-493e-8756-af723ba9b153
+    level: CAN_MANAGE
