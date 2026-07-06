@@ -5,6 +5,7 @@ bundle:
   uuid: 69a18b1d-161e-493b-9627-ec7a0b0558cf
 
 include:
+  - permissions.yml
   - resources/*.yml
   - resources/*/*.yml
 
@@ -37,7 +38,3 @@ targets:
     variables:
       catalog: main
       schema: prod
-    permissions:
-      - user_name: stuart.libby@databricks.com
-        service_principal_name: 73529182-20d0-493e-8756-af723ba9b153
-        level: CAN_MANAGE
